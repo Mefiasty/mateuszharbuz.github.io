@@ -22,24 +22,25 @@
             <center><img src="profilowe.jpg" alt="brak zdjęcia" srcset="" class="prof"></center>
             <h2>Przykładowe Prace</h2>
             <center><input type="button" value="Pokaż Prace" onclick="pokazp()"></center>
-            <p id="skrypt"></p><p id="skrypt2"></p>
+            <p id="skrypt"></p><p id="skrypt2"></p><p id="skrypt3"></p>
             <script>
                 function pokazp()
                 {
-                    document.getElementById("skrypt").innerHTML="<h2>PHP</h2><a href='php.php'><img src='php.jpg' alt='brak' class='php'></a><br>";
-                    document.getElementById("skrypt2").innerHTML="<h2>JS</h2><a href='java.php'><img src='java.jpg' alt='brak' class='java'></a>";
+                    document.getElementById("skrypt").innerHTML="<h2>PHP</h2><a href='php.php' download='php.php'><img src='php.jpg' alt='brak' class='php' ></a><br>";
+                    document.getElementById("skrypt2").innerHTML="<h2>JS</h2><a href='java.php' download='js.js'><img src='java.jpg' alt='brak' class='java' ></a><br>";
+                    document.getElementById("skrypt3").innerHTML="<h2>CSS do Prac<h2><a href='style.css' download='style.css'>Pobierz CSS </a>Lub sprawdź kod na moim koncie <a href='https://github.com/Mefiasty/mateuszharbuz.github.io'>GitHub</a>";
                 }
             </script>
         </div>
 
         <div class="prawy">
             <h1 class=napis2>O mnie</h1>
-            <h4>Ogólne</h4>
-            <p>Nazywam się Mateusz Harbuz. Mam 21 lat. Ukończyłem technikum na profilu Technik Informatyk. Moim zainteresowaniem jest świat programownia.
+            <h3>Ogólne</h3>
+            <p style="font-size:18px">Nazywam się Mateusz Harbuz. Mam 21 lat. Ukończyłem technikum na profilu Technik Informatyk. Moim zainteresowaniem jest świat programownia.
                  Kontynuuje swoją naukę informatyki na studiach zaocznych informatycznych na Politechnice Rzeszowskiej. Jako twój pracownik postaram się ze wszystkich sił aby ukończyć zadanie i cię nie zawieźć.
             </p>
-            <h4>Więcej informacji</h4>
-            <p>Więcej informacji o mnie znajdziesz tutaj pobierając moje CV</p>
+            <h3>Więcej informacji</h3>
+            <p style="font-size:18px">Więcej informacji o mnie znajdziesz tutaj pobierając moje CV</p>
             <a href="CV_Mateusz_Harbuz (1).pdf" download="CV.pdf">Pobierz CV</a>
         </div>
 
