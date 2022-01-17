@@ -1,33 +1,36 @@
-div{display: block;}
+*{
+    box-sizing: border-box;
+    font-family: Arial;    
+}
 .prof{
     animation-name:pokaz;
     animation-duration:3s;
     animation-iteration-count: 1;
-    width: 150px;
-    height: 170px;    
+    width: 200px;
+    height: 250px;    
     border-radius: 50%;
     -webkit-animation-name: pokaz;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
 }
-@keyframes pokaz
+/* @keyframes pokaz
 {
   0% { width:0%; height: 0%;border-radius: 0%; }
-  100% { width:150px; height: 170px;border-radius: 50%; }
+  100% { width:200px; height: 250px;border-radius: 50%; }
 }
 
 @-webkit-keyframes pokaz
 {
     0% { width:0%; height: 0%; border-radius: 0%;}
-    100% { width:150px; height: 170px; border-radius: 50%; }
-}
+    100% { width:200px; height: 250px; border-radius: 50%; }
+} */
 
-.prof:hover
+/* .prof:hover
 {
     width: 200px;
     height: 230px;   
     border-radius: 50%;
-}
+} */
 
 h1{
     object-position:center;
@@ -40,7 +43,7 @@ h1{
     -webkit-animation-duration: 6s ;
     -webkit-animation-iteration-count: 1;
 }
-@keyframes napis
+/* @keyframes napis
 {
 0%{ text-align: center; object-position: center; font-size: 0; }
 100%{ text-align: center; object-position: center; font-size: 55px;}
@@ -50,7 +53,7 @@ h1{
 {
     0%{ text-align: center; object-position: center; font-size: 0; }
     100%{ text-align: center; object-position: center; font-size: 55px;}
-}
+} */
 
 h1.napis2{
     object-position:center;
@@ -63,7 +66,7 @@ h1.napis2{
     -webkit-animation-duration: 6s ;
     -webkit-animation-iteration-count: 1;
 }
-@keyframes napis2
+/* @keyframes napis2
 {
 0%{ text-align: center; object-position: center; font-size: 0; }
 100%{ text-align: center; object-position: center; font-size: 34px;}
@@ -73,50 +76,44 @@ h1.napis2{
 {
     0%{ text-align: center; object-position: center; font-size: 0; }
     100%{ text-align: center; object-position: center; font-size: 34px;}
-}
+} */
 
 .footer1{
 background-color:wheat;
-display: block;
+display: flex;
 width: 100%;
-border-radius: 10%;
+border-radius: 0%;
+justify-content: center;
 }
 .footer2{
     background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7959558823529411) 30%, rgba(0,0,0,0.7595413165266106) 70%, rgba(0,0,0,1) 100%);
 color: white;    
-display: block;
     width: 100%;
-    border-radius: 25%;
+    border-radius: 5%;
     }
 
 .lewy{
-display: block;
-float: left;
-width: 50%;
 background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7959558823529411) 30%, rgba(0,0,0,0.7595413165266106) 70%, rgba(0,0,0,1) 100%);
 color: white;   
 /* background: radial-gradient(circle, rgba(20,20,20,0.6502976190476191) 0%, rgba(93,93,93,0.8127626050420168) 35%, rgba(43,43,43,0.5550595238095238) 100%); */
-border-radius: 15%;
+border-radius: 0%;
 }
 .prawy{
 object-position: center;
 text-align: center;
-display: block;
-float: left;
-width: 50%;
 background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7959558823529411) 30%, rgba(0,0,0,0.7595413165266106) 70%, rgba(0,0,0,1) 100%);
 color: white;   
-border-radius: 15%;
+border-radius: 0%;
 }
 h2{
     text-align: center;
     object-position: center;
 }
 body{
-
+    margin: 0%;
     background: rgb(207,207,207);
     background: radial-gradient(circle, rgba(207,207,207,0.6166841736694677) 0%, rgba(93,93,93,0.41780462184873945) 49%, rgba(43,43,43,0.2665441176470589) 100%);
     /* background: rgb(130,122,120);
@@ -212,4 +209,17 @@ form{
     width: 100%;
     border-radius: 20%;
     
+}
+.srodek{
+    display: flex;
+    
+}
+.bloczki{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+p{
+    max-width: 500px;
+    margin: auto;
 }
