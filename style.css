@@ -204,15 +204,6 @@ form{
     object-position: center;
 }
 
-.gora{
-    background-color: #3f3b3b;
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7959558823529411) 30%, rgba(0,0,0,0.7595413165266106) 70%, rgba(0,0,0,1) 100%); */
-    color: white;    
-    display: block;
-    width: 100%;
-    border-radius: 20%;
-    
-}
 .srodek{
     
     background-color: #3f3b3b;
@@ -223,7 +214,7 @@ form{
     flex-direction: column-reverse;
     max-width: 1000px;
     margin: auto;
-}
+}   
 p{
     max-width: 500px;
     margin: auto;
@@ -244,4 +235,59 @@ input[type="button"]:hover{
     
     font-size: 26px;
     cursor:pointer;
+}
+.bloczek{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    background-color: #3f3b3b;
+}
+.goragora{
+    display: flex;    
+    background-color: #feb062;
+}
+.gora{
+    background-color: #ffa45c;
+    justify-content: center;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7959558823529411) 30%, rgba(0,0,0,0.7595413165266106) 70%, rgba(0,0,0,1) 100%); */
+    color: #2c2b2b; 
+    width: 100%;   
+    max-width: 1000px;
+    margin: auto;
+    
+    
+}
+.skryptphp{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+input[type="submit"]{
+    background-color: #ffa45c; 
+    border: none;
+    color: #3f3b3b;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration:none;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    transition: .3s;
+}
+input[type="submit"]:hover{
+    
+    font-size: 22px;
+    cursor:pointer;
+}
+input[type="number"]{
+    border: none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration:none;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    transition: .3s;
 }
