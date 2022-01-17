@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- /////////////////////////////////GÓRA//////////////////////////////////////// -->
+    <div class="footer1">    
+        <div class="footer2">
+                <h1 class="napis">Witaj w moim Portfolio</h1>
+        </div>
+    </div>
+<!-- /////////////////////////////////////ŚRODEK///////////////////////////////////////// -->
+    <div class="bloczki">
+ 
+        <div class="lewy">
+            <h2>Mateusz Harbuz</h2> 
+            <center><img src="profilowe.jpg" alt="brak zdjęcia" srcset="" class="prof"></center>
+            <h2>Przykładowe Prace</h2>
+            <center><input type="button" value="Pokaż Prace" onclick="pokazp()"></center>
+            <p id="skrypt"></p><p id="skrypt2"></p>
+            <script>
+                function pokazp()
+                {
+                    document.getElementById("skrypt").innerHTML="<h2>PHP</h2><a href='php.php'><img src='php.jpg' alt='brak' class='php'></a><br>";
+                    document.getElementById("skrypt2").innerHTML="<h2>JS</h2><a href='java.php'><img src='java.jpg' alt='brak' class='java'></a>";
+                }
+            </script>
+        </div>
+
+        <div class="prawy">
+            <h1 class=napis2>O mnie</h1>
+            <h4>Ogólne</h4>
+            <p>Nazywam się Mateusz Harbuz. Mam 21 lat. Ukończyłem technikum na profilu Technik Informatyk. Moim zainteresowaniem jest świat programownia.
+                 Kontynuuje swoją naukę informatyki na studiach zaocznych informatycznych na Politechnice Rzeszowskiej. Jako twój pracownik postaram się ze wszystkich sił aby ukończyć zadanie i cię nie zawieźć.
+            </p>
+            <h4>Więcej informacji</h4>
+            <p>Więcej informacji o mnie znajdziesz tutaj pobierając moje CV</p>
+            <a href="CV_Mateusz_Harbuz (1).pdf" download="CV.pdf">Pobierz CV</a>
+        </div>
+
+    </div>
+<!-- /////////////////////////////////////////DÓŁ////////////////////////////////////// -->
+    <div class="footer">
+
+
+    </div>
+</body>
+</html>
