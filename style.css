@@ -275,6 +275,7 @@ input[type="submit"]{
     display: inline-block;
     font-size: 20px;
     transition: .3s;
+    scroll-behavior: smooth;
 }
 input[type="submit"]:hover{
     
